@@ -20,6 +20,8 @@ Setup the folowing package archives:
    - melpa-stable: http://stable.melpa.org/packages/
    - melpa: https://melpa.org/packages/
 
+Before installing a package, make sure to refresh the packages content.
+
 ---
 
 ## **Exercise 2 - Lockfiles and backup files**
@@ -55,7 +57,7 @@ In the `mouse.el` file, enable the mouse click.
 
 ---
 
-## **Exercise 6 - Tabs**
+## **Exercise 6 - Tab characters**
 
 Create a `programming.el` file.
 
@@ -65,7 +67,9 @@ In order to respect the Epitech coding style, make sure that the TAB key indents
 
 ## **Exercice 7 - Pairs**
 
-Using the `electric-pair-mode` package, ensure that:
+**Required package:** electric-pair-mode
+
+Ensure that:
 - the `"` character is added to the buffer when you add a `"` character
 - the `}` characher is added to the buffer when you add a `{` character
 - the `'` character is added to the buffer when you add a `'` character
@@ -77,4 +81,40 @@ Using the `electric-pair-mode` package, ensure that:
 In the `programming.el` file, make sure that all the trailing spaces are removed when you save the buffer.
 
 ---
+ 
+## **Exercise 9 - Treemacs**
 
+**Required package:** treemacs
+
+Treemacs is a package that enables to have a tree with some repositories and the foilders/files it contains in your emacs buffer.
+
+In the `programming.el` file, make sure that treemacs is launched each time you open a new emacs buffer.
+
+--- 
+
+## **Exercise 10 - Shortcuts**
+
+**Required package:** tab-bar-mode
+
+Create a new file called `keyboard-shortcuts.el`.
+
+Ensure that:
+   - `Ctrl+n` opens a new tab bar in your emacs buffer
+   - `Ctrl+q` closes the tab bar in your emacs buffer
+   - `Ctrl+t` opens / closes treemacs
+   - `Ctrl+A` adds a new repository to treemacs
+   - `Ctrl+D` removes a repository to treemacs
+
+---
+
+## **Exercise 11 - Autocomplete**
+
+**Required packages:** global-company-mode, company-c-headers
+
+Make sure that autocompletetion is enabled for C language and C headers.
+
+---
+
+## **Exercise 12 - Package auto installation**
+
+In the `init.el` file, create a list of packages and make sure that all of the packages are installed (if they are not already) when you launch emacs.
