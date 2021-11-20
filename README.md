@@ -51,6 +51,8 @@ In the `interface.el` file, ensure that the monokai theme is loaded each time yo
 
 ## **Exercise 5 - Mouse click**
 
+**Required package:** xterm-mouse-mode
+
 Create a `mouse.el` file (make sure it is included in the `init.el` file).
 
 In the `mouse.el` file, enable the mouse click.
