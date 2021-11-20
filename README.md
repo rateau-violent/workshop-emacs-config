@@ -1,4 +1,4 @@
-# **\[Workshop\] Emacs configuration**
+# **\[Workshop COBRA\] Emacs configuration**
 
 ## **Exercise 0 - Setup**
 
