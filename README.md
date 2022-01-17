@@ -43,9 +43,9 @@ In the `interface.el` file, make sure that the configuration will display the nu
 
 ## **Exercise 4 - Theme**
 
-In the `~/.emacs.d/` directory, create a `themes/` folder, and download the [monokai theme](https://github.com/oneKelvinSmith/monokai-emacs/blob/master/monokai-theme.el) in it.
+**Required package:** monokai-theme
 
-In the `interface.el` file, ensure that the monokai theme is loaded each time you open emacs.
+In the `~/.emacs.d/interface.el` file, enable the monokai theme so it is loaded each time you open emacs.
 
 ---
 
