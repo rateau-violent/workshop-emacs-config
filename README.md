@@ -111,7 +111,7 @@ Ensure that:
 
 ## **Exercise 11 - Autocomplete**
 
-**Required packages:** global-company-mode, company-c-headers
+**Required packages:** company, company-c-headers
 
 Make sure that autocompletetion is enabled for C language and C headers.
 
